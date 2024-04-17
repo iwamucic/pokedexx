@@ -1,0 +1,43 @@
+.pagination-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+} 
+.pagination-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: beige;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.pagination-button:hover {
+    background-color: beige;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 1%;
+  }
+  
+  nav a {
+    background-color: beige;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: beige;
+  }
+  
+  
