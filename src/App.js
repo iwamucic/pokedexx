@@ -3,7 +3,7 @@ import './App.css';
 import PokemonCard from './components/PokemonCard';
 import PokemonDetails from './components/PokemonDetails';
 import Pagination from './components/Pagination';
-import About from './components/About'; // Update import statement
+import About from './components/About';
 import { Link, Route, BrowserRouter as Router, Routes } from "react-router-dom";
 
 function App() {
@@ -65,13 +65,13 @@ function App() {
     <Router>
       <div className="app-container">
         <nav>
-          <Link to="/">Home</Link>
+          <Link to="/pokedexx">Home</Link>
           <Link to="/about">About</Link>
         </nav>
         <h1>My Pokedex</h1>
         <Routes>
   <Route path="/about" element={<About />} />
-  <Route path="/" element={
+  <Route path="/pokedexx" element={
     <>
       <PokemonCard pokemon={pokemon} onPokemonClick={handlePokemonClick} />
       <Pagination
